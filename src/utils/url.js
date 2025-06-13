@@ -1,6 +1,6 @@
 
 // production
-export const url = 'https://attendance-65pu.onrender.com'
+export const url = 'https://attendance-65pu.onrender.com/api'
 
 
 // develoment
