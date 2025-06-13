@@ -1,8 +1,8 @@
 
 // production
-// export const url = ' https://sms-k66o.onrender.com/api'
+export const url = 'https://attendance-65pu.onrender.com'
 
 
 // develoment
-export const url = 'http://localhost:5000/api'
+// export const url = 'http://localhost:5000/api'
 
