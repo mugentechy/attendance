@@ -18,7 +18,7 @@ cors = CORS()
 def register_extensions(app):
     db.init_app(app)
     migrate.init_app(app,db)
-    cors.init_app(app)
+    cors.init_app(app, resources={r"/*": {"origins": "https://attendan.netlify.app"}}, supports_credentials=True)
 
 def register_blueprints(app):
     from .view.users import users
