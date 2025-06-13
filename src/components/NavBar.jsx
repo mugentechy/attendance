@@ -96,7 +96,7 @@ function NavBar({ window, user }) {
             <Toolbar>
               <Typography variant="h6" noWrap component="div" style={{ display: 'flex', alignItems: 'center' }}>
                 <SchoolIcon sx={{ fontSize: 24, marginRight: 0.5 }} />
-                <span>{user?.name || 'Schoolia'}</span>
+                <span>{user?.name || 'Attendance'}</span>
               </Typography>
             </Toolbar>
             <Divider />

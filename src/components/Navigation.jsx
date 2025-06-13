@@ -47,7 +47,7 @@ export default function Navigation() {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography  component={Link}
             to="/"  variant="h6" sx={{ my: 2 }}>
-        Schoolia
+        Attendance
       </Typography>
       <Divider />
       <List>
